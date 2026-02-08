@@ -15,7 +15,7 @@ query = "Where should Common Equity Tier 1 capital be reported in C01?"
 
 results = retrieve(query, index, texts)
 
-print("\n🔍 Retrieved Context:\n")
+print("\ Retrieved Context:\n")
 for r in results:
     print("-----")
     print(r[:500])  # print first 500 characters

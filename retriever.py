@@ -22,7 +22,7 @@ def build_index(all_chunks):
     index = faiss.IndexFlatL2(dimension)
     index.add(np.array(embeddings))
 
-    print("✅ FAISS index built.")
+    print("FAISS index built.")
     return index, texts
 
 

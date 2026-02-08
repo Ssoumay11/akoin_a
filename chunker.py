@@ -28,7 +28,7 @@ def save_chunks(chunks, source_name, output_path):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(structured, f, indent=2)
 
-    print(f"✅ Saved {len(chunks)} chunks to {output_path}")
+    print(f"Saved {len(chunks)} chunks to {output_path}")
 
 
 if __name__ == "__main__":
